@@ -1,8 +1,15 @@
-#!/bin/bash
-#include(stdio.h)
+#include <stdio.h>
+
+/**
+ * main - entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main (void)
 {	
- 	char Msg[] = "Programming is like building a multilingual puzzle";
-	puts(Msg);
-return(0);
+ 	puts("\"Programming is like building a multilingual puzzle");
+	return(0);
+
+
 }
