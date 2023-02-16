@@ -2,6 +2,7 @@
 #include(stdio.h)
 int main (void)
 {	
-	printf ("Programming is like building a multilingual puzzle");
+ 	char Msg[] = "Programming is like building a multilingual puzzle";
+	puts(Msg);
 return(0);
 }
