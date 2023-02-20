@@ -3,7 +3,7 @@
 /**
  * main - beginig of Code
  *
- * return:is Always 0 (Success)
+ * Return:is Always 0 (Success)
  */
 
 int main(void)
