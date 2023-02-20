@@ -12,9 +12,8 @@ int main(void)
 
 	while (n <= 122)
 	{ putchar(n); 
-		n++;
-	}
-	"\n";
+		n++;"\n";
+	};
 	return (0);
 
 
