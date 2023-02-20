@@ -10,13 +10,12 @@ int main(void)
 {
 	int n = 97;
 	int k = 90;
-	while (n <= 122)
+	while(n < 122)
         {putchar(n);
                 n++;
-        }
-        ;
-	while (k <= 90)
-	{putchar(n);
+        };
+	while(k < 90)
+	{putchar(k);
 		k++;
 	}
 	;
