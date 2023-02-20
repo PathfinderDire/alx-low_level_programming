@@ -22,7 +22,6 @@ int main(void)
 		printf(" is zero\n") ; }
 		else
 		{ printf("%d", n);
-			printf(" is negative\n")
-		};
+			printf(" is negative\n") ; };
 	return (0);
 }
