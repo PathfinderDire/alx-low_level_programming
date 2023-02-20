@@ -8,15 +8,15 @@
 
 int main (void)
 {
-	int n=97;
-	int p=65;
+	int n = 97;
+	int k = 65;
 	
 	while (n <= 122)
-	{ putchar(n);
+	{ putchar('n');
 		n++;
 	};
-	while (p <= 90)
-	{ putchar(p);
+	while (k <= 90)
+	{ putchar('k');
 		n++;
 	};
 	putchar ('\n');
