@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main: beginning of code 
+ * main: beginning of code
  *
  * Return:is always 0 (Success)
  */
 
 int main(void)
 {
-	int n=0;
-	char letter ='a';
+	int n = 0;
+	char letter = 'a';
 
-	if (n <= 10)
+	while (n <= 10)
 	{ putchar(n);
 		n++;
 	};
-	if (letter <= 'f')
-	{putchar(letter);
+       while (letter <= 'f')
+	{ putchar(letter);
 		letter++;
 	};
 	return (0);
