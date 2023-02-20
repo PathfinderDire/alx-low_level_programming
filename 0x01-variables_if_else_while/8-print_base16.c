@@ -18,6 +18,7 @@ int main(void)
 	while (letter <= 'f')
 	{ putchar(letter);
 		letter++;
+		putchar('\n')
 	};
 	return (0);
 
