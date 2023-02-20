@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: beginning of code
+ * main - beginning of code
  *
  * Return:is always 0 (Success)
  */
@@ -12,10 +12,10 @@ int main(void)
 	char letter = 'a';
 
 	while (n <= 57)
-	{ putchar('n');
+	{ putchar(n);
 		n++;
 	};
-       while (letter <= 'f')
+	while (letter <= 'f')
 	{ putchar(letter);
 		letter++;
 	};
