@@ -2,11 +2,8 @@
 
 /**
  * _isalpha- Checks Alphabet
- *
  * Return: 1 if letter 0 if not
- *
- * c: is Char
- * c - is char
+ * @c: is Charter to be checked
  */
 
 int _isalpha(int c)
