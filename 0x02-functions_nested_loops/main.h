@@ -1,4 +1,11 @@
-int _putchar(char c)
+void print_alphabet(void)
 {
-	return (write(1, &c, 1));
+	int n = 97;
+	while (n <= 122)
+	{ putchar(n);
+		n++;
+	};
+	putchar('\n');
+
+
 }
