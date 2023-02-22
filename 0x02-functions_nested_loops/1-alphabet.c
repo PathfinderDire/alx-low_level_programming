@@ -6,18 +6,8 @@
  * Return: Always 0 (Succes)
  */
 
-void print_alphabet(void)
-{
-	int n;
-
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		putchar(n);
-	}
-	putchar('\n');
-}
 int main(void)
 {
-	print_alphabet ();
+	void print_alphabet ();
 	return(0);
 }
