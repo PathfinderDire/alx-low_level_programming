@@ -1,24 +1,23 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - Biginning of Code
- * Return:on Success 0
+ * print_alphabet - a function that prints the alphabet, in lowercase
+ *
+ * Return: Always 0 (Succes)
  */
 
-void print_aphabet(void)
-{
-        int n = 97;
-        while (n <= 122)
-        { putchar(n);
-                n++;
-        };
-        putchar('\n');
-}
 int main(void)
 {
-	void print_alphabet(void);
-	return (0);
+void print_alphabet(void)
+{
+	int n;
 
-
-
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		putchar(n);
+	}
+	putchar('\n');
+}
+return (0);
 }
