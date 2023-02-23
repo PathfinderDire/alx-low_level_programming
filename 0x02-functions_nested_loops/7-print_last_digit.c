@@ -3,6 +3,7 @@
 /**
  * print_last_digit - Prints last dig
  * Return: Always 0
+ * @n: Variable checked
  */
 
 int print_last_digit(int n)
