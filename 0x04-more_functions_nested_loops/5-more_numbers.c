@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * print_numbers - Prints 0 -9
- * Return: Always 0
+ * more_numbers - print more numbers
  */
 
-void print_numbers(void)
+void more_numbers(void)
 {
 	int i, j;
 
@@ -19,6 +18,5 @@ void print_numbers(void)
 		}
 		_putchar('\n');
 	}
-
-
 }
+
