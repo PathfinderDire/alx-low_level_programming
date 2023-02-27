@@ -11,14 +11,16 @@
 void print_rev(char *s)
 {
 	int i;
-
-	for (i = 10; s[i] != '\0'; i++)
+	char rev[];
+	
+	*rev = strrev(s);
+	for (i = 0; rev[i] != '\0'; i++)
 	{
-		if (s[i] != ' ')
+		if (rev[i] != ' ')
 		{
-			_putchar(s[i]);
+			_putchar(rev[i]);
 		}
-		else if (s[i] == ' ')
+		else if (rev[i] == ' ')
 		{
 			_putchar(' ');
 		}
