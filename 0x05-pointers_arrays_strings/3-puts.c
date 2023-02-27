@@ -3,12 +3,12 @@
 #include <stddef.h>
 
 /**
- * _put - Prints string;
+ * _puts - Prints string;
  * Return: returns Void;
  * @str: string
  */
 
-void _put(char *str)
+void _puts(char *str)
 {
 	int i;
 
