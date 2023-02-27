@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - Array change
- * Return: None
+ * reset_to_98 - Array change
+ * @n: intiger to be changed to 98
+ * Return: Void
  */
 
 void reset_to_98(int *n)
