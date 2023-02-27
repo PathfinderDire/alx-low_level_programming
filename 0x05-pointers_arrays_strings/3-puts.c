@@ -1,5 +1,6 @@
 #include "main.h"
-#include "string.h"
+#include <string.h>
+#include <stddef.h>
 
 /**
  * _puts - Prints string;
@@ -9,8 +10,15 @@
 
 void _puts(char *str)
 {
-	_putchar(*str);
-	_putchar('\n');
+	int length = strlen(str);
+	int i = 0;
+
+	while (i < 10)
+	{
+		_putchar(str[i]);
+		i++;
+	}
+		_putchar('\n');
 
 
 }
