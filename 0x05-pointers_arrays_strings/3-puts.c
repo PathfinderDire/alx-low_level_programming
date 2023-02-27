@@ -17,8 +17,8 @@ void _puts(char *str)
 		if (str[i] != ' ')
 		{
 			_putchar(str[i]);
-		}
-		if (str[i] == ' ')
+		};
+		if else (str[i] == ' ')
 		{
 			_putchar(str[' ']);
 		}
