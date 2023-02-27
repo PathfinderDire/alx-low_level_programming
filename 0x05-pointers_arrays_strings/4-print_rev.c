@@ -3,29 +3,27 @@
 #include <stddef.h>
 
 /**
- * print_rev - Prints string;
+ * _puts - Prints string;
  * Return: returns Void;
- * @s : String
+ * @str: string
  */
 
-void print_rev(char *s)
+void _puts(char *str)
 {
-	int i;
-	char rev[];
-	
-	*rev = strrev(s);
-	for (i = 0; rev[i] != '\0'; i++)
-	{
-		if (rev[i] != ' ')
-		{
-			_putchar(rev[i]);
-		}
-		else if (rev[i] == ' ')
-		{
-			_putchar(' ');
-		}
-	}
-	_putchar('\n');
+        int i;
+
+        for (i = 0; str[i] != '\0'; i++)
+        {
+                if (str[i] != ' ')
+                {
+                        _putchar(str[i]);
+                }
+                else if (str[i] == ' ')
+                {
+                        _putchar(' ');
+                }
+        }
+        _putchar('\n');
 
 
 }
