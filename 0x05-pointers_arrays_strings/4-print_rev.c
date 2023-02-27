@@ -3,22 +3,22 @@
 #include <stddef.h>
 
 /**
- * _puts - Prints string;
+ * print_rev - Prints string;
  * Return: returns Void;
- * @str: string
+ * @s: string
  */
 
-void _puts(char *str)
+void print_rev(char *s);
 {
         int i;
 
-        for (i = 0; str[i] != '\0'; i++)
+        for (i = 0; s[i] != '\0'; i++)
         {
-                if (str[i] != ' ')
+                if (s[i] != ' ')
                 {
-                        _putchar(str[i]);
+                        _putchar(s[i]);
                 }
-                else if (str[i] == ' ')
+                else if (s[i] == ' ')
                 {
                         _putchar(' ');
                 }
