@@ -3,16 +3,16 @@
 #include <stddef.h>
 
 /**
- * put2 - Prints string;
+ * _put - Prints string;
  * Return: returns Void;
  * @str: string
  */
 
-void puts2(char *str)
+void _put(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0'; i + 2)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (str[i] != ' ')
 		{
