@@ -20,7 +20,7 @@ void _puts(char *str)
 		}
 		else if (str[i] == ' ')
 		{
-			_putchar(str[' ']);
+			_putchar(' ');
 		}
 	}
 	_putchar('\n');
