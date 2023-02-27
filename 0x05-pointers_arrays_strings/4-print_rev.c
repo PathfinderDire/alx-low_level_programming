@@ -8,22 +8,22 @@
  * @s: string
  */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
-        int i;
+	int i;
 
-        for (i = 0; s[i] != '\0'; i++)
-        {
-                if (s[i] != ' ')
-                {
-                        _putchar(s[i]);
-                }
-                else if (s[i] == ' ')
-                {
-                        _putchar(' ');
-                }
-        }
-        _putchar('\n');
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		if (s[i] != ' ')
+		{
+			_putchar(s[i]);
+		}
+		else if (s[i] == ' ')
+		{
+			_putchar(' ');
+		}
+	}
+	_putchar('\n');
 
 
 }
