@@ -12,6 +12,7 @@ void rev_string(char *s)
 {
 	int i;
 
+	setbuf(stdout, s);
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] != ' ')
@@ -22,8 +23,8 @@ void rev_string(char *s)
 		{
 			_putchar(' ');
 		}
-	}
-	_putchar('\n');
+	};
+	setbuf(stdout, NULL);
 
 
 }
