@@ -12,6 +12,7 @@
 int main()
 {
         int i;
+	char *s;
 
         for (i = strlen(s) - 1; i >= 0; i--)
         {
