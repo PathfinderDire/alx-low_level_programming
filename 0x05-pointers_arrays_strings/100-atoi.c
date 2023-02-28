@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * print_rev - Prints string;
+ * _atoi - Prints string;
  * Return: returns Void;
  * @s: string
  */
