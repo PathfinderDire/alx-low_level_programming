@@ -9,7 +9,7 @@
  * @s: string
  */
 
-void main(char *s)
+int main(char *s)
 {
         int i;
 
@@ -25,6 +25,6 @@ void main(char *s)
                 }
         }
         _putchar('\n');
-
+return (0);
 
 }
