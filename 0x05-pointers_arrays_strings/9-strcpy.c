@@ -11,7 +11,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i;
-	int p = strlen(src);
+	int p = (strlen(src) - 1);
 	setbuf(stdout, dest);
 	for (i = 0; i <= p; i++)
 	{
@@ -22,7 +22,8 @@ char *_strcpy(char *dest, char *src)
 		else if (src[i] == ' ')
 		{
 			_putchar(' ');
-		}
+		};
+		_putchar('\n');
 	};
 	setbuf(stdout, NULL);
 	return (dest);
