@@ -22,12 +22,12 @@ char *_strcpy(char *dest, char *src)
 		{
 			_putchar(' ');
 		}
+		else if (src[i] == '\0')
+		{
+			_putchar('\n');
+		};
+		setbuf(stdout, NULL);
 	};
-	if (src[i] == '\0')
-                {
-                        _putchar('\n');
-                };
-	setbuf(stdout, NULL);
 	return (dest);
 
 
