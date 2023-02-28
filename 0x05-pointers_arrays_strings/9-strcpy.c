@@ -11,9 +11,8 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i;
-	int p = (strlen(src) - 1);
 	setbuf(stdout, dest);
-	for (i = 0; i <= p; i++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
 		if (src[i] != ' ')
 		{
@@ -23,11 +22,11 @@ char *_strcpy(char *dest, char *src)
 		{
 			_putchar(' ');
 		}
-		else if (src[i] == '\0')
-		{
-			_putchar('\n');
-		}
 	};
+	if (src[i] == '\0')
+                {
+                        _putchar('\n');
+                };
 	setbuf(stdout, NULL);
 	return (dest);
 
