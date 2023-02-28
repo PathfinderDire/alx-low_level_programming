@@ -6,7 +6,6 @@
 /**
  * print_array - Prints string;
  * Return: returns Void;
- * @str: string
  * @a: Array accepted
  * @n: number of intigers to be printed
  */
@@ -17,7 +16,7 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%d",a[i]);
+		printf("%d", a[i]);
 		if (i < (n - 1))
 		{
 			printf(", ");
