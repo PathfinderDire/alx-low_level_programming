@@ -9,7 +9,7 @@
  * @s: string
  */
 
-int main(char *s)
+int main()
 {
         int i;
 
