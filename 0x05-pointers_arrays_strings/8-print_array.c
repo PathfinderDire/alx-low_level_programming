@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 #include <string.h>
 #include <stddef.h>
@@ -15,7 +16,7 @@ void print_array(int *a, int n)
 	for (i = 0; i <= n; i++)
 	{
 		_putchar(a[i]);
-		_putchar(", ");
+		printf(", ");
 	};
 	_putchar('\n');
 
