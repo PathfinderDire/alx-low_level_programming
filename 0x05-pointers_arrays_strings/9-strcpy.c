@@ -6,6 +6,8 @@
 /**
  * *_strcpy - copies String
  * Return:the new string
+ * @src: string to be copies
+ * @dest: new string
  */
 
 char *_strcpy(char *dest, char *src)
@@ -27,7 +29,7 @@ char *_strcpy(char *dest, char *src)
 		}
 		else if (src[i] == '\0')
 		{
-			continue;
+			break;
 		};
 	};
 	setbuf(stdout, NULL);
