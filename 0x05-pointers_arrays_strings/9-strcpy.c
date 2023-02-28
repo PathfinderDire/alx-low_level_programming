@@ -11,8 +11,11 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i;
+	int p = strlen(src);
+
+
 	setbuf(stdout, dest);
-	for (i = 0; src[i] != '\0'; i++)
+	for (i = 0; i <= p; i++)
 	{
 		if (src[i] != ' ')
 		{
@@ -24,10 +27,10 @@ char *_strcpy(char *dest, char *src)
 		}
 		else if (src[i] == '\0')
 		{
-			_putchar('\n');
+			continue;
 		};
-		setbuf(stdout, NULL);
 	};
+	setbuf(stdout, NULL);
 	return (dest);
 
 
