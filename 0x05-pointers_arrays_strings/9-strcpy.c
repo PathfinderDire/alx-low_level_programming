@@ -22,8 +22,10 @@ char *_strcpy(char *dest, char *src)
 		else if (src[i] == ' ')
 		{
 			_putchar(' ');
-		};
-		_putchar('\n');
+		}
+		else if (src[i] == '\0')
+		{
+			_putchar('\n');
 	};
 	setbuf(stdout, NULL);
 	return (dest);
