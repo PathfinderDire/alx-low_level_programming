@@ -14,7 +14,7 @@ int _strcmp(char *s1, char *s2)
 	int p, i = 0;
 
 	p = strlen(s1);
-	while (s1[i] == s2[i] && (i <= p))
+	while (s1[i] == s2[i] && (i < p))
 	{
 		i++;
 	};
