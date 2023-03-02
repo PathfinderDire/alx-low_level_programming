@@ -12,13 +12,13 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0, j = 0;
-
+	int p,i = 0, j = 0;
+	p = strlen(src);
 	while (dest[i] != '\0')
 	{
 		i++;
 	};
-	while ((j < n) && (j <= strlen(src)))
+	while ((j < n) && (j <= p))
 	{
 		dest[i] = src[j];
 		i++;
