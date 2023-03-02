@@ -3,14 +3,14 @@
 #include <stdlib.h>
 
 /**
- * _strncat - Concatenates 2 Strings
+ * _strncpy - Concatenates 2 Strings
  * Return: the pointer Concatenated string
  * @dest: Destinaton stg
  * @src: Source String
  * @n: Number of char to be concatenated
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0, j = 0;
 
