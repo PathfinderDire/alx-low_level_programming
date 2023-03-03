@@ -26,7 +26,7 @@ void reverse_array(int *a, int n)
 		};
 	}
 	else
-		a[1] = a[2];
+		a[1] = a[0];
 
 
 }
