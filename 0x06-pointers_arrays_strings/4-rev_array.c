@@ -25,7 +25,7 @@ void reverse_array(int *a, int n)
 			j--;
 		};
 	}
-	else
+	else if (n != 1)
 	{
 		temp2 = a[1];
 		a[1] = a[0];
