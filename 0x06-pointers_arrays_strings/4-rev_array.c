@@ -29,7 +29,7 @@ void reverse_array(int *a, int n)
 	{
 		temp2 = a[1];
 		a[1] = a[0];
-		a[0] = temp;
+		a[0] = temp2;
 	};
 
 
