@@ -4,6 +4,7 @@
 /**
  * string_toupper- Changes all lower to upper case
  * Return: updated string pointer
+ * @s: String accepted
  */
 
 char *string_toupper(char *s)
