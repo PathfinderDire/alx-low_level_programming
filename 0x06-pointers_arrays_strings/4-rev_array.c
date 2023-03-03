@@ -12,7 +12,7 @@
 
 void reverse_array(int *a, int n)
 {
-	int i = 0, j = n - 1, temp;
+	int i = 0, j = n - 1, temp, temp2;
 
 	if (n != 2)
 	{
@@ -26,7 +26,9 @@ void reverse_array(int *a, int n)
 		};
 	}
 	else
+		temp2 = a[1];
 		a[1] = a[0];
+		a[0] = temp;
 
 
 }
