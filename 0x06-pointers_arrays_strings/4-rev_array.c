@@ -26,9 +26,11 @@ void reverse_array(int *a, int n)
 		};
 	}
 	else
+	{
 		temp2 = a[1];
 		a[1] = a[0];
 		a[0] = temp;
+	};
 
 
 }
