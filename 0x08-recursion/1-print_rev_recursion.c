@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 
 /**
@@ -12,18 +13,12 @@ void _print_rev_recursion(char *s)
 	int i = 0;
 
 	if (s[i] == '\0')
-	{
 		return;
-	}
-	else
-	{
+	else {
 		s++;
 		_print_rev_recursion(s);
 	};
-	if (s[i] != 0)
-	{
-		_putchar(s[i]);
-	};
+	_putchar(s[(i-1)]);
 
 
 }
