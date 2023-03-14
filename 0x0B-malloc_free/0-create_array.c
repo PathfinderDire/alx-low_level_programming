@@ -23,6 +23,8 @@ char *create_array(unsigned int size, char c)
 		};
 		if (ptr != NULL)
 			return (ptr);
+		else
+			return (NULL);
 	}
 	else
 		return (NULL);
