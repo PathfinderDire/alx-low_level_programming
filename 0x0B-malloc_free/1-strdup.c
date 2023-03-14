@@ -10,21 +10,21 @@
  */
 char *_strdup(char *str)
 {
-	int s = strlen(str);
-        char *ptr = (char *) malloc(s);
+	unsigned int s = strlen(str);
+	char *ptr = (char *) malloc(s);
 
 	if (ptr == NULL)
-        {
+	{
 		printf("Can't allocate %d bytes)\n", s);
 		return (NULL);
 	};
-	ptr = str;
-        if (str != NULL)
-        {
+	*ptr = *str;
+	if (str != NULL)
+	{
 		return (ptr);
 	};
 	if (ptr == NULL)
 		return (NULL);
-	else 
+	else
 		return (NULL);
 }
