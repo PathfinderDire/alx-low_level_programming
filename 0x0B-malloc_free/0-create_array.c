@@ -13,7 +13,11 @@ char *create_array(unsigned int size, char c)
 {
 	char *ptr = (char *) malloc(size);
 	unsigned int i = 0;
-
+	if (ptr == NULL)
+	{
+		printf("Can't allocate %d bytes (after %d calls)\n", size, i);
+		return (NULL);
+	};
 	if (size != 0)
 	{
 		while (i < size)
