@@ -14,6 +14,9 @@ char *_strdup(char *str)
 	unsigned int s = strlen(str);
 	char *ptr = (char *) malloc((s) + 1);
 
+	if (str == NULL)
+		printf("Can't allocate memory.\n");
+	return (NULL);
 	if (ptr == NULL)
 	{
 		printf("Can't allocate %d bytes)\n", s);
