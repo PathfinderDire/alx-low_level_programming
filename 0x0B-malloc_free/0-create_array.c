@@ -21,9 +21,11 @@ char *create_array(unsigned int size, char c)
 			ptr[i] = c;
 			i++;
 		};
+		if (ptr == NULL)
+			return (NULL);
 		if (ptr != NULL)
 			return (ptr);
-		else if (ptr == NULL)
+		else
 			return (NULL);
 	}
 	else
