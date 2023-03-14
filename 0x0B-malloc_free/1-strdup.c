@@ -19,6 +19,11 @@ char *_strdup(char *str)
 		printf("Can't allocate %d bytes)\n", s);
 		return (NULL);
 	};
+	if (str == NULL)
+	{
+		printf("failed to allocate memory");
+		return (NULL);
+	};
 	while (i < s)
 	{
 		*(ptr + i) = *(str + i);
