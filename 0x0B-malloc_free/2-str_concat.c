@@ -45,9 +45,9 @@ char *str_concat(char *s1, char *s2)
         m++;
     };
     return (ptr);};
-	else if (ptr == NULL)
+	if (ptr == NULL)
 		return (ptr2);
-	else if (ptr2 == NULL)
+ if (ptr2 == NULL)
 		return (ptr);
 
 }
