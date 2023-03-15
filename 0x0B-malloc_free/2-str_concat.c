@@ -48,5 +48,7 @@ char *str_concat(char *s1, char *s2)
 	if (ptr == NULL)
 		return (ptr2);
  if (ptr2 == NULL)
+ {
 		return (ptr);
- else return (NULL);
+ };
+ return (NULL);
