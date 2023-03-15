@@ -13,13 +13,11 @@
 char *str_concat(char *s1, char *s2)
 {
     int q,i = 0, p, j = 0, l = 0, m = 0;
+    char *ptr = (char *) malloc(sizeof(char) * (strlen(s1)));
+    char *ptr2 = (char *) malloc(sizeof(char) * (strlen(s2)));
 
     p = strlen(s1);
     q = strlen(s2);
-    char *ptr; 
-	   *ptr = (char *) malloc(sizeof(char) * (p));
-    char *ptr2;
-   	*ptr2 = (char *) malloc(sizeof(char) * (q));
     if (ptr == NULL) {
         printf("Can't allocate memory\n");
         return (NULL);
