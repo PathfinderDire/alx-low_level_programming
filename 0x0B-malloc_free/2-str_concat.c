@@ -7,25 +7,41 @@
  * @s1: 1st string
  * @s2: 2nd string
  *
- * Return: pointer to conc string
+ * Return: pointer to new conc string
  */
+
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int j = 0;
-	unsigned int p = strlen(s1) - 1;
-	unsigned int q = strlen(s2) + p;
-	char *ptr = (char *) malloc(sizeof(char) * (p + q));
-	if (ptr == NULL)
-	{
-		printf("Can't allocate memory\n");
-		return (NULL);
-	};
-	while (p < q)
-	{
-	s1[p] = s2[j];
-	p++;
-	j++;
-	};
-	ptr = s1;
-	return (ptr);
+    int q,i = 0, p, j = 0, l = 0, m = 0;
+
+    p = strlen(s1);
+    q = strlen(s2);
+    char *ptr = (char *) malloc(sizeof(char) * (p));
+    char *ptr2 = (char *) malloc(sizeof(char) * (q));
+    if (ptr == NULL) {
+        printf("Can't allocate memory\n");
+        return (NULL);
+    };
+    if (ptr2 == NULL) {
+        printf("Can't allocate memory\n");
+        return (NULL);
+    };
+
+    while (s1[i] != '\0') {
+        ptr[i] = s1[i];
+        i++;
+    };
+    while (s2[j] != '\0') {
+        ptr2[j] = s2[j];
+        j++;
+    };
+
+    l = p - 1;
+    while (m <= (p + q)) {
+        ptr[l] = ptr2[m];
+        l++;
+        m++;
+    };
+    return (ptr);
+
 }
