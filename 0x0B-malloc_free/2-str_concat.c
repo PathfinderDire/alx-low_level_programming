@@ -14,7 +14,7 @@ char *str_concat(char *s1, char *s2)
 {
     int q,i = 0, p, j = 0, l = 0, m = 0;
     char *ptr = (char *) malloc(sizeof(char) * (strlen(s1)));
-    char *ptr2 = (char *) malloc(sizeof(char) * (strlen(s2)));
+    char *ptr2 = (char *) malloc(sizeof(char) * (strlen(s2)) + 1);
 
     p = strlen(s1);
     q = strlen(s2);
