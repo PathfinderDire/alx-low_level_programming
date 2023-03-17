@@ -1,6 +1,3 @@
-101-strtow.c
-
-
 #include <stdlib.h>
 		
 #include "main.h"
