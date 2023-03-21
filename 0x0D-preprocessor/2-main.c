@@ -8,5 +8,5 @@
  */
 void main(void)
 {
-	printf("%lu\n", __FILE__);
+	printf("%s\n", __FILE__);
 }
