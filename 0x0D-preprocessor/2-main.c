@@ -4,9 +4,10 @@
 /**
  * main - Prints a program to print the File Name of program
  *
- * Return: Void
+ * Return: 0 if Success
  */
-void main(void)
+int main(void)
 {
 	printf("%s\n", __FILE__);
+	return (0);
 }
