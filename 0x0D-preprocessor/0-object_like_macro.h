@@ -1,6 +1,4 @@
-#include <stdio.h>
 
-/**
- * @SIZE:defining a header for SIZE
- */
+#ifndef SIZE
 #define SIZE (1024)
+#endif /* SIZE */
