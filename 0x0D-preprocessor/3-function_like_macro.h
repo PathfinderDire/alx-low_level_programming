@@ -1,5 +1,3 @@
-#pragma once
-#include <stdio.h>
 #ifndef ABS(x)
-#define ABS(x) (abs(x))
+#define ABS(x) (if (x < 0) (-(x)); else x)
 #endif /* ABS(x) */
