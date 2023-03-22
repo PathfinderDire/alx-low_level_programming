@@ -1,19 +1,5 @@
 #include "function_pointers.h"
 #include <stdio.h>
-#include <stddef.h>
-/**
- * prnt - a called function to print name
- * @s: pointer to name string
- *
- * Return: nothing
- */
-void prnt(char *s)
-{
-	for (int i = 0; i != '\0'; i++)
-	{
-		_putchar(s[i]);
-	};
-}
 /**
  * print_name - prints name given.
  * @name: string name given
