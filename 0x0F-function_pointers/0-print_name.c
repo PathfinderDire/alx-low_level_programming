@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 #include <stdio.h>
-
+#include <stddef.h>
 /**
  * prnt - a called function to print name
  * @s: pointer to name string
