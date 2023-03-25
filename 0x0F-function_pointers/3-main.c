@@ -2,7 +2,6 @@
 #include "function_pointers.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int num1, num2;
