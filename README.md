@@ -1,5 +1,6 @@
 # Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming
-This repository contains programs written for the low-level programming and algorithm track at the alx-SoftwareEngineering program facilitated by Holberton School. I am learning about data structures, algorithms, and other low-level programming concepts while working in the C language. I update this repo with my learning progresses with hands-on projects as listed below:
+This repository contains programs written for the low-level programming and algorithm track at the alx-SoftwareEngineering program facilitated by Holberton School. Learning about data structures, algorithms, and other low-level programming concepts while working in the C language.  
+Hands-on projects are as listed below:
 
 * [0x00. C - Hello, World](https://github.com/PathfinderDire/alx-low_level_programming/tree/master/0x00-hello_world)   
 * [0x01. C - Variables, if, else, while](https://github.com/PathfinderDire/alx-low_level_programming/tree/master/0x01-variables_if_else_while)    
